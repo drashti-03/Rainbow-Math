@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@800&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.header {
+  
+  display: flex;
+  justify-content:space-between;
+  background-color: #1e1c1c;
+  position: sticky;
+  top: 0%;
+  z-index: 1;
+}
+
+
+.logo1{
+  height: 60px;
+  margin-left: 30px;
+}
+
+.heading{
+background-color: transparent;
+scroll-behavior: smooth;
+}
+
+.box{
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  width: 500px;
+  margin: 2rem;
+  flex-direction: column;
+  display: flex;
+}
+
+.box1{
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  width: 500px;
+  margin: 2rem;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  place-content: space-evenly;
+}
+
+a{
+  text-decoration: none;
+  align-self:center;
+  color:rgb(0, 204, 255);
+}
+
+.form{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  size: 200px;
+  padding-top: 1rem;
+}
+
+.search{
+  background-color: white;
+  border: 2px solid rgb(31, 26, 26);
+  border-radius: 50px;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: black;
+  align-self: center;
+  width: 500px;
+}
+
+.search::placeholder {
+  color: #7378c5;
+}
+
+/* .search:focus {
+  outline: none;
+  background-color: black;
+} */
+  
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #232325b8;
+  align-items: center;
+  background-blend-mode:overlay;
+  background-size: cover;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  background-color: transparent;
+  align-items: center;
+}
+
+.mainBG{
+  background-color: #1e1c1ce7;
+  height: 92vh;
+  justify-content: center;
+  display: flex;
+  scroll-behavior: smooth;
+  background-blend-mode:overlay;
+  background-size:auto;
+  background-position: center;
+  color: rgba(255, 255, 255, 0.914);
+}
+
+.list1{
+  color:ghostwhite;
+  background-color: #1e1c1ce7;
+  height: fit-content;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scroll-behavior: smooth; 
+  background-blend-mode:overlay;
+  background-size:auto;
+  background-position: center;
+}
+
+.list2{
+  color:ghostwhite;
+  background-color: #1e1c1ce7;
+  justify-content: center;
+  display: flex;
+  scroll-behavior: smooth;
+  background-blend-mode:overlay;
+  background-size:auto;
+  background-position: center;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+}
+
+.btn{
+  color: #7378c5;
+  background: white;
+  margin: 2px;
+  padding: 2%;
+  border-radius: 30px ;
+  cursor: pointer;
+}
+
+/*.btn:hover{
+  background: rgba(255, 255, 255, 0.914);
+}*/
+
+.answer{
+  width: 500px;
+  height: 100px;
+  background-color: rgba(101, 224, 255, 0.366);
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.2rem;
+  opacity: 0.8;
+  border-radius: 1rem;
+  font-family: inherit;
+  font-size: 20px;
+  color: #fff;
+}
+
+p{
+  font-size: small;
+}
+
+.math {
+  width: 300px;
+  margin: 1rem;
+  flex-direction: row; 
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  scroll-behavior: smooth;
+}
+
+.math img {
+  width: 100%;
+}
+
+
+.math-info {
+  color:rgb(0, 204, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:0.2rem;
+  padding: 0.5rem 1rem 1rem;
+  letter-spacing: 0.5px;
+  border-color: rgb(31, 26, 26);
+  background-color: #1e1c1c;
+}
+
+.math-info1 {
+  color:rgb(0, 204, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:0.2rem;
+  letter-spacing: 0.5px;
+  border-color: rgb(31, 26, 26);
+  background-color: #1e1c1c;
+  border-radius: 1rem;
+}
+
+.button1{
+    color: rgb(0, 204, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.5px;
+    background-color: #1e1c1c;
+    border-radius: 1rem;
+    font-family: inherit;
+    margin: 5px;
+}
+
+.button{
+  color: rgb(0, 204, 255);
+  background-color: #1e1c1c;
+  border-radius: 1rem;
+  margin: 3px;
+  font-size: 12;
+  height: 30px;
+  font-family: inherit;
+}
+
+td{
+  align-items: center;
+  align-content: center;
+  display: grid;
+}
+
+.math-info span {
+  color:rgb(0, 204, 255);
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.overview {
+  background-color: #1e1c1c;
+  padding: 2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-height: 100%;
+  transform: translateY(101%);
+  overflow-y: auto;
+  transition: transform 0.3s ease-in;
+  border-color: rgb(31, 26, 26);
+  color: aliceblue;
+}
+
+.math:hover .overview {
+  transform: translateY(0);
+}
+
+/*sidebar*/
+.logo {
+  width: 226px;
+  height: 64px;
+  }
+
+.nav-btn {
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 20px;
+  }
+  
+  .open-btn {
+    position: absolute;
+    top: 16px;
+    left: 10px;
+    color:rgb(255, 0, 0);
+    border: none;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    color:rgb(34, 31, 31);
+    border: none;
+  }
+  
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;
+  }
+  
+  .nav.visible {
+    transform: translateX(0);
+  }
+  
+  .nav-black {
+    background-color:black;
+    width: 70%;
+    max-width: 400px;
+    min-width: 240px;
+    transition-delay: 0.4s;
+  }
+  
+  .nav-black.visible {
+    transition-delay: 0s;
+    
+  }
+  
+  .nav-red {
+    background-color:rgb(255, 0, 0);
+    width: 95%;
+    transition-delay: 0.2s;
+  }
+  
+  .nav-red.visible {
+    transition-delay: 0.2s;
+  }
+  
+  .nav-white {
+    background-color: #fff;
+    width: 95%;
+    padding: 40px;
+    position: relative;
+    transition-delay: 0s;
+  }
+  
+  .nav-white.visible {
+    transition-delay: 0.4s;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list li {
+    margin: 20px 0;
+  }
+  
+  .list li a {
+    color: rgb(34, 31, 31);
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .list ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+
+/*toggle*/
+
+.toggle{
+  width: 40px;
+  height: 20px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  padding: 0.5rem 1rem;
+  margin: 1.2rem;
+}
+
+.toggle-icon{
+  color: goldenrod;
+}
+
+.toggle-ball{
+  width: 18px;
+  height: 18px;
+  background-color:black;
+  position: absolute;
+  right: 1px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 1s ease all;
+}
+
+/*Light Mode*/
+.main.active{
+  background-color: #fdfdfd;
+
+}
+
+.mainBG.active{
+  background-color: #fdfdfd;
+  color: #1e1c1c;
+}
+
+.list1.active{
+  color: #1e1c1c;
+  background-color: #fdfdfd;
+}
+
+.list2.active{
+  color: #1e1c1c;
+  background-color: #fdfdfd;
+}
+
+.math-info.active{
+  background-color: white;
+  
+  color: rgb(21, 0, 255);
+}
+
+.math-info1.active{
+  background-color: white;
+  
+  color: rgb(21, 0, 255);
+}
+
+
+.overview.active{
+  background-color: white;
+  color: #1e1c1c;
+}
+
+
+.toggle.active{
+  background-color: black;
+}
+
+.toggle-ball.active{
+  background-color: white;
+  transform: translateX(-20px);
+
+}
+
+.header.active{
+  background-color: #fdfdfd;
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.search.active{
+background-color: black;
+color:#fdfdfd;
+}
+
+.btn.active{
+  background-color: black;
+  color: #7378c5;
+}
+
+.answer.active{
+  color:#111111;
+}
+
+.button.active{
+  color: rgb(21, 0, 255);
+  background-color:#fff;
+}
+
+.button1.active{
+  color: rgb(21, 0, 255);
+  background-color:#fff;
+}
+
+a.active{
+  color:rgb(21, 0, 255);
+}

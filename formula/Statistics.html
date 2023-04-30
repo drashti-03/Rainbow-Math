@@ -1,0 +1,103 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="../images/Formulae.jpg">
+    <title>Statistics</title>
+</head>
+
+<body>
+     <!--header-->
+
+     <div class="header" >
+
+      <div class="button">
+        <button class="nav-btn open-btn">
+          <i class="fas fa-bars"></i>
+       </button>
+      </div>
+
+      <div class="logo1">
+        <img src="../images/logo.png" class="logo1">
+      </div>
+    
+     <div class="toggle">
+        <i class="fa-solid fa-moon toggle-icon"></i>
+        <i class="fa-solid fa-sun toggle-icon"></i>
+        <div class="toggle-ball"></div>
+     </div>
+
+  </div>
+
+    <main class="list1" id="list1">
+      <section class="menu">
+        <button class="button"><a href="../formulae.html">Main Formula Page</a></button>
+        <button class="button"><a href="./integration.html">Integration</a></button>
+        <button class="button"><a href="./differentiation.html">Differentiation</a></button>
+        <button class="button"><a href="./geometry.html">Geometry</a></button>
+        <button class="button"><a href="./line.html">Line</a></button>
+        <button class="button"><a href="./log.html">Log</a></button>
+        <button class="button"><a href="./probability.html">Probability</a></button>
+        <button class="button"><a href="./set.html">Set</a></button>
+        <button class="button"><a href="./trigonometry.html">Trigonometry</a></button>
+      </section> 
+      <section>  
+        <h2>Statistics Formula</h2>   
+        <ul>
+            <li> Mean(x')=X'=∑x/n</li>
+            <li> Median M=(n+1)/2 n is even
+                then M = ((n/2)term+((n/2)+1)term)/2
+            </li>                
+            <li>Variance = σ<sup>2</sup>=∑(x'−x)²/n</li>
+            <li>Standard Deviation = S=σ</li>
+            <li>Mode = The mode in a dataset is the value that is most frequent in the dataset.</li>
+            <h4>Correlation</h4>
+            <li>Pearson product-moment correlation = r = Σ (xy) / sqrt [ ( Σ x² ) * ( Σ y² ) ]</li>
+            <li>Linear correlation (sample data) = r = [ 1 / (n - 1) ] * Σ { [ (xi - x) / sx ] * [ (yi - y) / sy ] }</li>
+            <li>Linear correlation (population data) = ρ = [ 1 / N ] * Σ { [ (Xi - μX) / σx ] * [ (Yi - μY) / σy ] }</li>
+        
+            <h4>Simple Linear Regression</h4>
+            <li>Simple linear regression line: ŷ = b0 + b1x</li>
+            <li>Regression coefficient = b1 = Σ [ (xi - x) (yi - y) ] / Σ [ (xi - x)²]</li>
+            <li>Regression slope intercept = b0 = y - b1 * x</li>
+            <li>Regression coefficient = b1 = r * (sy / sx)</li>
+            <li>Standard error of regression slope = sb1 = sqrt [ Σ(yi - ŷi)² / (n - 2) ] / sqrt [ Σ(xi - x)² ]</li>
+        </ul>
+      </section>
+      
+    </main> 
+    
+    <!--sidebar-->
+
+    <div class="nav nav-black">
+        <div class="nav nav-red">
+          <div class="nav nav-white">
+            <img
+            src="./images/logo.png"
+            alt="Logo" class="logo">
+    
+            <button class="nav-btn close-btn">
+              <i class="fas fa-times"></i>
+            </button>
+    
+            <ul class="list">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../calculator.html">Calculator</a></li>
+              <li><a href="../trigo.html">Trigonometry</a></li>
+              <li><a href="../formulae.html">Formulae</a></li>
+              <li><a href="../calculus.html">Calculus</a></li>
+              <li><a href="../algebra.html">Algebra</a></li>
+              <li><a href="../matrix.html">Matrix</a></li>
+              <li><a href="../mathfunction.html">Math Functions</a></li>
+            </ul>
+          </div>
+        </div>
+      </div> 
+    
+      <script src="../script.js"></script>
+</body>
+</html>
